@@ -34,4 +34,7 @@ var1 = 20
 var2 = 'hello'
 var3 = 15.5
 
-print("this is to test parameters %s%d%f"%(var2,var1,var3))
+# print("this is to test parameters %s%d%f"%(var2,var1,var3))
+
+for var in ('hello world'):
+    print(type(var))
