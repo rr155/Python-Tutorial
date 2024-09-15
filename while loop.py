@@ -18,5 +18,5 @@ while True:
     print(output)
     if 'INFO: No tasks are running' in output:
         print("task was killed please look")
-        break # breaks the loop , even infinite one. Can be used with loops only 
+        break # breaks the loop , even infinite one. Can be used with while loops only 
     
