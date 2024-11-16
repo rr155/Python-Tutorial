@@ -1,0 +1,5 @@
+Name,courseopted,mobilenumber
+abc,python,1111111
+def,python,333333
+efg,python,444444
+pqr,python,665754
