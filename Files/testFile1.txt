@@ -1,0 +1,7 @@
+name,courseopted,mobileNumber
+abc,python,1111111
+cde,java,2222222
+def,python,333333
+efg,python,444444
+hij,ruby,55555
+pqr,python,665754
