@@ -4,7 +4,7 @@ def IpCollect():
     try:
         filePath = os.getcwd()
         print (filePath)
-        fp = os.path.join(filePath,'testFile.txt')
+        fp = os.path.join(filePath, 'Files','testFile.txt')
         print (fp)
         if os.path.exists(fp):
             fobj1 = open('result_writelist_0302.txt','w')

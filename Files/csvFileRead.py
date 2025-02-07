@@ -1,5 +1,5 @@
 
-filePath = r'E:\santwna_data\OnlinePythonClass\Nasreen_python\FileProgram\filename_size_03_02.csv'
+filePath = r'C:\Users\KUMBU PANDA\Documents\Learning\Projects\Python-Tutorial\Files\filename_size_03_02.csv'
 
 def csvRead(filePath):
     writePath = '\\'.join(filePath.split('\\')[:-1])
