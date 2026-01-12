@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Chat Portal</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI Chat Portal</h1>
+        <div class="settings">Model: <span id="model-name">{{ default_model }}</span></div>
+      </header>
+
+      <main id="chat">
+        <div id="messages"></div>
+      </main>
+
+      <form id="chat-form">
+        <textarea id="input" placeholder="Type your message..." rows="2"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <script>
+    const DEFAULT_MODEL = "{{ default_model }}";
+    </script>
+    <script src="/static/chat.js"></script>
+  </body>
+</html>
